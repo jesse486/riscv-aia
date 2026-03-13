@@ -29,8 +29,8 @@ package aia_pkg;
 // graphical interface to generate AIA IPs, which will automatically
 // populate the aia_pkg file.  
 ///////////////////////////////////////////////////////////////////
-    localparam UserNrSources = 256;
-    localparam UserNrHarts   = 5;
+    localparam UserNrSources = 64;
+    localparam UserNrHarts   = 4;
     localparam UserNrDomains = 1;  
     localparam UserNrDomainsM = 0; 
     localparam UserMinPrio   = 6;
@@ -56,8 +56,8 @@ package aia_pkg;
 // User must edit the IMSIC Default Config using this parameters  
 ///////////////////////////////////////////////////////////////////
     localparam UserXLEN           = 64;
-    localparam UserNrSourcesImsic = 256;
-    localparam UserNrHartsImsic   = 5;
+    localparam UserNrSourcesImsic = 64;
+    localparam UserNrHartsImsic   = 4;
     localparam UserNrVSIntpFiles  = 1;
 ///////////////////////////////////////////////////////////////////
 
